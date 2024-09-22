@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling for the heading */
+h4 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling for inputs */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for the sign-in button */
+#btnsign {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnsign:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the "create account" link */
+h4 a {
+    color: #007bff;
+    text-decoration: block;
+    transition: color 0.3s ease;
+}
+
+h4 a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
